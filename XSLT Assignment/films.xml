@@ -1,0 +1,105 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="xsltassignment.xsl"?>
+<filmProject>
+
+	<todaysFilms>
+		<film>
+			<filmTitle>Nights of Cabiria</filmTitle>
+			<year>1957</year>
+			<actor>Giulietta Masina</actor>
+			<director>Federico Fellini</director>
+		</film>
+		<info>
+			<MPARating>not rated</MPARating>
+			<category>Drama</category>
+			<subtitles>English subtitles</subtitles>
+			<criticRating>4*</criticRating>
+		</info>
+		<schedule>
+			<theater>Saratoga Cinema</theater>
+			<times>
+				<startTime>16:00</startTime>
+				<startTime>18:00</startTime>
+				<startTime>20:00</startTime>
+				<startTime>22:00</startTime>
+			</times>
+			<ticketPrice>7.50</ticketPrice>
+		</schedule>
+	</todaysFilms>
+
+	<todaysFilms>
+		<film>
+			<filmTitle>Grand Illusion</filmTitle>
+			<year>1937</year>
+			<actor>Jean Gabin</actor>
+			<director>Jean Renoir</director>
+		</film>
+		<info>
+			<MPARating>not rated</MPARating>
+			<category>Drama</category>
+			<subtitles>English subtitles</subtitles>
+			<criticRating>4*</criticRating>
+		</info>
+		<schedule>
+			<theater>Saratoga Cinema</theater>
+			<times>
+				<startTime>15:00</startTime>
+				<startTime>18:00</startTime>
+				<startTime>21:00</startTime>
+			</times>
+			<ticketPrice>8.00</ticketPrice>
+		</schedule>
+	</todaysFilms> 
+
+	<todaysFilms>
+		<film>
+			<filmTitle>Cinema Paradiso</filmTitle>
+			<year>1990</year>
+			<actor>Philippe Noiret</actor>
+			<director>Giuseppe Tornatore</director>
+		</film>
+		<info>
+			<MPARating>PG</MPARating>
+			<category>Drama</category>
+			<subtitles>English subtitles</subtitles>
+			<criticRating>4*</criticRating>
+		</info>
+		<schedule>
+			<theater>Saratoga Cinema</theater>
+			<times>
+				<startTime>12:00</startTime>
+				<startTime>15:00</startTime>
+				<startTime>18:00</startTime>
+				<startTime>21:00</startTime>
+			</times>
+			<ticketPrice>9.50</ticketPrice>
+		</schedule>
+	</todaysFilms>
+
+	<todaysFilms>
+		<film>
+			<filmTitle>Desert Hearts</filmTitle>
+			<year>1987</year>
+			<actor>Helen Shaver</actor>
+			<actor>Patricia Charbonneau</actor>
+			<director>Donna Deitch</director>
+		</film>
+		<info>
+			<MPARating>R</MPARating>
+			<category>Comedy</category>
+			<subtitles>no subtitles</subtitles>
+			<criticRating>4*</criticRating>
+		</info>
+		<schedule>
+			<theater>Saratoga Cinema</theater>
+			<times>
+				<startTime>16:00</startTime>
+				<startTime>18:00</startTime>
+				<startTime>20:00</startTime>
+				<startTime>22:00</startTime>
+			</times>
+			<ticketPrice>9.00</ticketPrice>
+		</schedule>
+	</todaysFilms>
+
+</filmProject>
