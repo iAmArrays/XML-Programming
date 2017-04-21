@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<companyA>
+	<itemCustomer>
+		<customer address="Saratoga">ABC Ltd.</customer>
+		<orderNumber date="101201">1234</orderNumber>
+		<productName quantity="20">computer</productName>
+		<amount pricePerUnit="2000">40000</amount>
+	</itemCustomer>
+	<itemCustomer>
+		<customer address="Los Gatos">Praxis</customer>
+		<orderNumber date="161101">1201</orderNumber>
+		<productName quantity="2">printer</productName>
+		<amount pricePerUnit="1000">2000</amount>
+	</itemCustomer>
+	<itemCustomer>
+		<customer address="Pala Alto">QWER</customer>
+		<orderNumber date="211201">1331</orderNumber>
+		<productName quantity="3">scanner</productName>
+		<amount pricePerUnit="800">2400</amount>
+	</itemCustomer>
+	<itemCustomer>
+		<customer address="Oakland">CDg</customer>
+		<orderNumber date="211201">341</orderNumber>
+		<productName quantity="10">fax</productName>
+		<amount pricePerUnit="250">2500</amount>
+	</itemCustomer>
+</companyA>
