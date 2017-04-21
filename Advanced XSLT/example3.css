@@ -1,0 +1,15 @@
+body {
+color: blue;
+background: rgb(255,254,225);
+}
+
+test { 
+color: red;
+background-color: yellow;
+font-family: Arial, sans-serif;
+font-weight: bold;
+}
+
+first {
+color: blue;
+}

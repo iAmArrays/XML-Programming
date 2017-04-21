@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+
+<student name="John Focht"
+  javaMark="80"
+  xmlMark="90"
+  xhtmlMark="89">
+</student>

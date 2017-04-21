@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+
+<weatherReport>
+    <location>
+    <name>Moscow</name>
+    <temperature>27</temperature>
+    <conditions>haze</conditions>
+    <winds>NW 7 mph</winds>
+    <relativeHumidity>100%</relativeHumidity>    
+    </location>
+    <location>
+    <name>Ljubljana</name>
+    <temperature>37</temperature>
+    <conditions>cloudy</conditions>
+    <winds>SW 6 mph</winds>
+    <relativeHumidity>93%</relativeHumidity>    
+    </location>
+    <location>
+    <name>Los Gatos</name>
+    <temperature>50</temperature>
+    <conditions>cloudy</conditions>
+    <winds>SE 12 mph</winds>    
+    <relativeHumidity>74%</relativeHumidity>
+    </location>
+</weatherReport>

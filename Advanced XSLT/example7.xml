@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+
+<spareParts>
+	<item>
+		<partName>valve</partName>
+		<partNumber>HV-152</partNumber>
+		<partImage>valve.jpeg</partImage>
+		<quantity>150</quantity>
+	</item>
+
+	<item>
+		<partName>belt</partName>
+		<partNumber>HB-342</partNumber>
+		<partImage>belt.jpeg</partImage>
+		<quantity>50</quantity>
+	</item>
+
+	<item>
+		<partName>gear</partName>
+		<partNumber>HG-431</partNumber>
+		<partImage>gear.jpeg</partImage>
+		<quantity>102</quantity>
+	</item>
+
+	<item>
+		<partName>sensor</partName>
+		<partNumber>Hs-142</partNumber>
+		<partImage>sensor.jpeg</partImage>
+		<quantity>251</quantity>
+	</item>
+</spareParts>
