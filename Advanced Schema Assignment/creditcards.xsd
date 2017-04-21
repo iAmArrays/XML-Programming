@@ -1,0 +1,122 @@
+<?xml version="1.0"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<xsd:element name="creditcards">
+		<xsd:complexType>
+            <xsd:sequence>
+                <xsd:element name="creditcard" type="creditcard_type" minOccurs="1" maxOccurs="unbounded" />
+            </xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+
+	<xsd:complexType name="creditcard_type">
+		<xsd:sequence>
+			<xsd:element name="cardno" type="cardno_type" />
+			<xsd:element name="type" type="type_type" />
+			<xsd:element name="status" type="status_type" />
+			<xsd:element name="beaconscore" type="beaconscore_type" />
+			<xsd:element name="name" type="name_type" />
+			<xsd:element name="expirydate" type="xsd:date" />
+			<xsd:element name="creditlimit" type="creditlimit_type" />
+			<xsd:element name="balance" type="balance_type" />
+			<xsd:element name="transaction" type="transaction_type" minOccurs="0" maxOccurs="unbounded" />
+			<xsd:element name="reversingtransaction" type="transaction_type" minOccurs="0" maxOccurs="unbounded" />
+		</xsd:sequence>
+	</xsd:complexType>
+
+	<xsd:complexType name="transaction_type">
+		<xsd:sequence>
+			<xsd:element name="type" type="transactiontype_type" />
+			<xsd:element name="vendorname" type="xsd:string" />
+			<xsd:element name="vendorurl" type="xsd:anyURI" minOccurs="0" maxOccurs="1" />
+			<xsd:element name="date" type="xsd:dateTime" />
+			<xsd:element name="amount" type="amount_type" />
+		</xsd:sequence>
+	</xsd:complexType>
+
+	<xsd:simpleType name="cardno_type">
+        <xsd:restriction base="xsd:integer">
+            <xsd:pattern value="\d{16}" />
+        </xsd:restriction>
+    </xsd:simpleType>
+
+    <xsd:simpleType name="type_type">
+        <xsd:restriction base="xsd:string">
+        	<xsd:enumeration value="V" />
+        	<xsd:enumeration value="M" />
+        	<xsd:enumeration value="A" />
+        </xsd:restriction>
+    </xsd:simpleType>
+
+    <xsd:simpleType name="status_type">
+        <xsd:restriction base="xsd:string">
+        	<xsd:enumeration value="G" />
+        	<xsd:enumeration value="S" />
+        	<xsd:enumeration value="F" />
+        </xsd:restriction>
+    </xsd:simpleType>
+
+    <xsd:simpleType name="beaconscore_type">
+        <xsd:restriction base="xsd:integer">
+        	<xsd:minInclusive value="500" />
+        	<xsd:maxInclusive value="850" />
+        </xsd:restriction>
+    </xsd:simpleType>
+
+    <xsd:simpleType name="name_type">
+        <xsd:restriction base="xsd:string">
+        	<xsd:pattern value="\w+\s\w+(\s\w+)*" />
+        </xsd:restriction>
+    </xsd:simpleType>
+
+    <xsd:simpleType name="restrict_integer">
+        <xsd:restriction base="xsd:integer">
+        	<xsd:minInclusive value="0" />
+        </xsd:restriction>
+    </xsd:simpleType>
+
+    <xsd:complexType name="creditlimit_type">
+    	<xsd:simpleContent>
+    		<xsd:extension base="restrict_integer">
+    			<xsd:attribute name="review" type="xsd:string" fixed="review" />
+			</xsd:extension>
+		</xsd:simpleContent>
+	</xsd:complexType>
+
+    <xsd:complexType name="balance_type">
+    	<xsd:simpleContent>
+	        <xsd:extension base="xsd:float">
+	        	<xsd:attribute ref="cur" use="required" />
+	        </xsd:extension>
+        </xsd:simpleContent>
+    </xsd:complexType>
+
+    <xsd:attribute name="cur">
+    	<xsd:simpleType>
+	    	<xsd:restriction base="xsd:string">
+	    		<xsd:enumeration value="USD" />
+	        	<xsd:enumeration value="CAD" />
+	        	<xsd:enumeration value="GBP" />
+	        	<xsd:enumeration value="EUR" />
+	        	<xsd:enumeration value="AUD" />
+	        	<xsd:enumeration value="JPY" />
+	        	<xsd:enumeration value="CNY" />
+			</xsd:restriction>
+		</xsd:simpleType>
+	</xsd:attribute>
+
+    <xsd:simpleType name="transactiontype_type">
+        <xsd:restriction base="xsd:string">
+        	<xsd:enumeration value="P" />
+        	<xsd:enumeration value="E" />
+        	<xsd:enumeration value="O" />
+        </xsd:restriction>
+    </xsd:simpleType>
+
+    <xsd:complexType name="amount_type">
+    	<xsd:simpleContent>
+	        <xsd:extension base="xsd:float">
+	        	<xsd:attribute ref="cur" use="required" />
+	        </xsd:extension>
+        </xsd:simpleContent>
+    </xsd:complexType>
+</xsd:schema>

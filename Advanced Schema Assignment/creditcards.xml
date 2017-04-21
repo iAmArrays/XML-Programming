@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<creditcards>
+   <creditcard>
+     <cardno>1200450023009488</cardno>
+     <type>V</type>
+     <status>G</status>
+     <beaconscore>775</beaconscore>
+     <name>John Smith</name>
+     <expirydate>2011-06-01</expirydate>
+     <creditlimit review="review">5000</creditlimit>
+     <balance cur="CAD">1114.72</balance>
+     <transaction>
+         <type>E</type>
+         <vendorname>AAA Computer Repair</vendorname>
+         <date>2006-10-13T13:41:25</date>
+         <amount cur="CAD">69.97</amount>
+     </transaction>
+     <transaction>
+         <type>P</type>
+         <vendorname>Elite Lock &amp; Safe</vendorname>
+         <date>2008-10-18T09:22:51</date>
+         <amount cur="CAD">73.32</amount>
+     </transaction>
+   </creditcard>
+   
+   <creditcard>
+      <cardno>1200450023006475</cardno>
+   	  <type>M</type>
+   	  <status>G</status>
+   	  <beaconscore>589</beaconscore>
+      <name>John Wayne</name>
+      <expirydate>2010-07-01</expirydate>
+      <creditlimit>10000</creditlimit>
+      <balance cur="CAD">2339.21</balance>
+      <transaction>
+          <type>O</type>
+          <vendorname>Super Online Gun Shop</vendorname>
+          <vendorurl>http://superogs.com/</vendorurl>
+          <date>2007-10-05T03:07:44</date>
+          <amount cur="USD">114.54</amount>
+      </transaction>
+      <transaction>
+          <type>P</type>
+          <vendorname>Superior Saddelry</vendorname>
+          <date>2008-10-06T15:33:00</date>
+          <amount cur="CAD">876.34</amount>
+      </transaction>
+      <reversingtransaction>
+          <type>O</type>
+    <vendorname>Super Online Gun Shop</vendorname>
+    <vendorurl>http://superogs.com/</vendorurl>
+    <date>2007-10-08T12:19:21</date>
+          <amount cur="USD">114.54</amount>
+      </reversingtransaction>
+   </creditcard>
+</creditcards>
