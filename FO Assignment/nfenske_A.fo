@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<fo:root xmlns:fo="http://www.w3.org/1999/XSL/Format">
+	<fo:layout-master-set>
+		<fo:simple-page-master master-name="page"
+                  page-height="11in"
+                  page-width="8.5in"
+                  margin-top="1in"
+                  margin-bottom="1in"
+                  margin-left="1in"
+                  margin-right="1in">
+      	<fo:region-body margin-bottom="2in"/>
+      	<fo:region-before extent="1in"/>
+      	<fo:region-after extent="1in"/>
+    </fo:simple-page-master>
+    
+  </fo:layout-master-set>
+
+  <fo:page-sequence master-reference="page">
+  	<fo:static-content flow-name="xsl-region-after">
+  		<fo:block text-align-last="center" font-size="10pt">
+    		Page <fo:page-number/>
+  		</fo:block>
+	</fo:static-content>
+
+	<fo:flow flow-name="xsl-region-body">
+		<fo:block border-width="5px"
+				  border-style="solid"
+				  border-color="#00F"
+				  margin-bottom="2in"
+				  text-align="center">
+			<fo:inline font-size="20"
+					   font-family="Times Roman"
+					  color="#F00">
+				Nick Fenske
+			</fo:inline>
+			<fo:inline font-size="80%"
+					  color="#90C"
+					  font-style="italic">
+				I am literally the best, and love everything Zelda related.
+			</fo:inline>
+		</fo:block>
+		<fo:block>
+			<fo:block text-align="center">
+				A picture of me:
+			</fo:block>
+			<fo:block text-align="center">
+				<fo:external-graphic src="me.jpg"/>
+			</fo:block>
+		</fo:block>
+		<fo:block>
+			Artisan narwhal keytar, ugh American Apparel locavore vinyl heirloom taxidermy cred normcore synth flexitarian selvage. Retro Odd Future Blue Bottle drinking vinegar, gastropub sustainable four loko DIY readymade. Tumblr plaid food truck, Godard ethical cred banh mi normcore. Chillwave slow-carb church-key, leggings 8-bit messenger bag disrupt tousled aesthetic YOLO tofu authentic Helvetica dreamcatcher. Truffaut Kickstarter +1 four loko meh, actually ugh banjo scenester whatever viral XOXO. DIY organic Helvetica, typewriter YOLO whatever next level. Mlkshk taxidermy single-origin coffee, skateboard Neutra tofu distillery hashtag selvage Helvetica readymade Truffaut chambray farm-to-table.
+
+			Fap gastropub you probably haven't heard of them, brunch tattooed 3 wolf moon twee. Meditation Neutra before they sold out, Pinterest iPhone chambray Truffaut forage taxidermy next level master cleanse distillery wayfarers asymmetrical raw denim. Bushwick Pitchfork meh, ennui chambray Tumblr 90's aesthetic drinking vinegar Schlitz. Cold-pressed Banksy forage semiotics, Pitchfork pour-over pork belly biodiesel put a bird on it fixie mustache ugh. PBR&amp;B selfies pop-up Carles, chambray gluten-free Wes Anderson distillery stumptown Godard banh mi meh tofu. Synth banjo Pitchfork XOXO, freegan paleo vegan scenester locavore High Life squid salvia Cosby sweater gastropub. Semiotics Godard crucifix Carles twee, pork belly artisan ugh typewriter fixie 90's Schlitz.	
+		</fo:block>
+	</fo:flow>
+  </fo:page-sequence>
+</fo:root>
