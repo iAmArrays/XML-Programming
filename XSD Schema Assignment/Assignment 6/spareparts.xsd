@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<xsd:element name="spareParts">
+		<xsd:complexType>
+            <xsd:sequence>
+                <xsd:element name="item" type="item_type" minOccurs="1" maxOccurs="unbounded" />
+            </xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+
+	<xsd:complexType name="item_type">
+		<xsd:sequence>
+			<xsd:element name="partName" type="xsd:string" />
+			<xsd:element name="partNumber" type="part_number_type" />
+			<xsd:element name="partImage" type="part_image_type" />
+			<xsd:element name="quantity" type="quantity_type" />
+			<xsd:element name="price" type="xsd:float" />
+		</xsd:sequence>
+        <xsd:attribute name="discontinue_date" type="xsd:date" />
+	</xsd:complexType>
+
+    <xsd:simpleType name="part_number_type">
+        <xsd:restriction base="xsd:string">
+            <xsd:pattern value="[HGVBS]{2}[-]\d{3}" />
+        </xsd:restriction>
+    </xsd:simpleType>
+
+    <xsd:simpleType name="part_image_type">
+        <xsd:restriction base="xsd:string">
+            <xsd:pattern value=".*(\.jpeg)" />
+        </xsd:restriction>
+    </xsd:simpleType>
+
+    <xsd:simpleType name="quantity_type">
+        <xsd:restriction base="xsd:integer">
+            <xsd:minInclusive value="0" />
+        </xsd:restriction>
+    </xsd:simpleType>
+
+</xsd:schema>

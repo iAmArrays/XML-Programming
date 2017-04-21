@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+
+<spareParts>
+
+	<item discontinue_date="2002-10-01">
+	 <partName>valve</partName>
+	 <partNumber>HV-152</partNumber>
+	 <partImage>valve.jpeg</partImage>
+	 <quantity>150</quantity>
+	 <price>1.99</price>
+	</item>
+
+	<item>
+	 <partName>belt</partName>
+	 <partNumber>HB-342</partNumber>
+	 <partImage>belt.jpeg</partImage>
+	 <quantity>0</quantity>
+	 <price>4.99</price>
+	</item>
+
+	<item>
+	 <partName>gear</partName>
+	 <partNumber>HG-431</partNumber>
+	 <partImage>gear.jpeg</partImage>
+	 <quantity>102</quantity>
+	 <price>12.99</price>
+	</item>
+
+	<item discontinue_date="2002-01-14">
+	 <partName>sensor</partName>
+	 <partNumber>HS-142</partNumber>
+	 <partImage>sensor.jpeg</partImage>
+	 <quantity>251</quantity>
+	 <price>32.99</price>
+	</item>
+
+</spareParts>
