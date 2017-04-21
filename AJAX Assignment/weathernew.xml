@@ -1,0 +1,143 @@
+<?xml version="1.0"?>
+<weather>
+	<country>Canada
+		<city>
+			<name>Victoria</name>
+			<temperature>9</temperature>
+			<wind>W 15 km/h</wind>
+			<humidity>70%</humidity>
+			<pressure>102.0 kPa</pressure>
+			<visibility>6 km</visibility>
+		</city>
+		<city>
+			<name>Vancouver</name>
+			<temperature>11</temperature>
+			<wind>N 5 km/h</wind>
+			<humidity>60%</humidity>
+			<pressure>102.7 kPa</pressure>
+			<visibility>4 km</visibility>
+		</city>
+		<city>
+			<name>Calgary</name>
+			<temperature>25</temperature>
+			<wind>W 15 km/h</wind>
+			<humidity>60%</humidity>
+			<pressure>101.7 kPa</pressure>
+			<visibility>18 km</visibility>
+		</city>
+		<city>
+			<name>Edmonton</name>
+			<temperature>20</temperature>
+			<wind>W 8 km/h</wind>
+			<humidity>40%</humidity>
+			<pressure>103.7 kPa</pressure>
+			<visibility>12 km</visibility>
+		</city>
+		<city>
+			<name>Regina</name>
+			<temperature>-10</temperature>
+			<wind>N 40 km/h</wind>
+			<humidity>0%</humidity>
+			<pressure>102.7 kPa</pressure>
+			<visibility>2 km</visibility>
+		</city>
+		<city>
+			<name>Winnipeg</name>
+			<temperature>15</temperature>
+			<wind>N 11 km/h</wind>
+			<humidity>60%</humidity>
+			<pressure>102.7 kPa</pressure>
+			<visibility>16 km</visibility>
+		</city>
+		<city>
+			<name>Thunder Bay</name>
+			<temperature>18</temperature>
+			<wind>S 5 km/h</wind>
+			<humidity>55%</humidity>
+			<pressure>102.3 kPa</pressure>
+			<visibility>18 km</visibility>
+		</city>
+		<city>
+			<name>Sudbury</name>
+			<temperature>14</temperature>
+			<wind>Calm</wind>
+			<humidity>20%</humidity>
+			<pressure>100.7 kPa</pressure>
+			<visibility>19 km</visibility>
+		</city>
+		<city>
+			<name>Toronto</name>
+			<temperature>27</temperature>
+			<wind>E 11 km/h</wind>
+			<humidity>60%</humidity>
+			<pressure>102.7 kPa</pressure>
+			<visibility>16 km</visibility>
+		</city>
+		<city>
+			<name>Ottawa</name>
+			<temperature>22</temperature>
+			<wind>E 15 km/h</wind>
+			<humidity>60%</humidity>
+			<pressure>102.1 kPa</pressure>
+			<visibility>18 km</visibility>
+		</city>
+		<city>
+			<name>Quebec City</name>
+			<temperature>16</temperature>
+			<wind>W 22 km/h</wind>
+			<humidity>60%</humidity>
+			<pressure>100.2 kPa</pressure>
+			<visibility>12 km</visibility>
+		</city>
+		<city>
+			<name>Montreal</name>
+			<temperature>23</temperature>
+			<wind>W 2 km/h</wind>
+			<humidity>50%</humidity>
+			<pressure>103.9 kPa</pressure>
+			<visibility>14 km</visibility>
+		</city>
+	</country>
+	<country>Europe
+		<city>
+			<name>Amsterdam</name>
+			<temperature>23</temperature>
+			<wind>W 2 km/h</wind>
+			<humidity>50%</humidity>
+			<pressure>103.9 kPa</pressure>
+			<visibility>14 km</visibility>
+		</city>
+		<city>
+			<name>Berlin</name>
+			<temperature>23</temperature>
+			<wind>W 2 km/h</wind>
+			<humidity>50%</humidity>
+			<pressure>103.9 kPa</pressure>
+			<visibility>14 km</visibility>
+		</city>
+		<city>
+			<name>Madrid</name>
+			<temperature>23</temperature>
+			<wind>W 2 km/h</wind>
+			<humidity>50%</humidity>
+			<pressure>103.9 kPa</pressure>
+			<visibility>14 km</visibility>
+		</city>
+		<city>
+			<name>London</name>
+			<temperature>23</temperature>
+			<wind>W 2 km/h</wind>
+			<humidity>50%</humidity>
+			<pressure>103.9 kPa</pressure>
+			<visibility>14 km</visibility>
+		</city>
+		<city>
+			<name>Rome</name>
+			<temperature>23</temperature>
+			<wind>W 2 km/h</wind>
+			<humidity>50%</humidity>
+			<pressure>103.9 kPa</pressure>
+			<visibility>14 km</visibility>
+		</city>
+	</country>
+</weather>

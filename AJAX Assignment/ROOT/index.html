@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>XML - AJAX</title>
+        <script type="text/javascript" src="weather.js"></script>
+        <link rel="stylesheet" type="text/css" href="weather.css" />
+    </head>
+    <body>
+        <section id="wrapper">
+            <form>
+                <label for="country">Country: </label>
+                <select id="country" name="country" onchange="processCities()">
+                </select>
+                <label>City: </label>
+                <select id="city" name="city" onchange="processWeather()">   
+                </select>
+            </form>
+            <section id="output">
+                
+            </section>  
+        </section>
+    </body>
+</html>

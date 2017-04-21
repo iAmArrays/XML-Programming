@@ -1,0 +1,33 @@
+#wrapper {
+    width: 500px;
+    margin: 0px auto;
+    border: 2px solid black;
+    border-top: none;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+}
+
+form {
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 10px;
+    text-align: center;
+}
+
+#country {
+    margin-right: 50px;
+}
+
+#output {
+    font-size: 20px;
+    padding: 20px;
+}
+
+td {
+    text-align: right;
+}
+
+td:nth-of-type(2n) {
+    padding-left: 10px;
+    text-align: right;
+}
